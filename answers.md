@@ -6,3 +6,11 @@
 6. At /polls/38/, I see a page with the text "You're looking at question 38." At /polls/38/results and /polls/38/vote, I see the pages with texts "You're looking at the results of question 38." and "You're voting on question 38." respectively. When using a string, a page not found error is returned. In urls.py, str instead of int would be used for the type of question ids.
 7. Hardcoded urls into templates decrease reusability, and may cause vulnerabilities. Thus, it is bad practice.
 8. Using Django's generic views saves time rewriting boiler plate code and minimizes errors due to it. You should use a generic view when required functionalities align with what generic view provides, and not when more work is needed to build atop of what generic view has.
+
+=====
+
+# lab 6
+
+1. What are some ways you can deploy your code to Heroku?
+2. A Procfile is "used to explicitly declare your application's process types and entry points." (https://devcenter.heroku.com/articles/django-app-configuration)
+3. What is the link to your deployed application (on herokuapps)?
